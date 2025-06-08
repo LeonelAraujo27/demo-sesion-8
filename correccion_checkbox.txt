@@ -1,0 +1,1 @@
+Se corrige el fix presentado en el checkbox para finalizar las tareas
