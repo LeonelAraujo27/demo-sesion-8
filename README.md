@@ -1,3 +1,1 @@
-# Demos-Sesion-8
-Repositorio para los demos de la sesión 8 del Bootcamp de GitHub Foundations de Código Facilito
-**Pasos para la Instalación**
+# Repositorio de práctica para la vinculación de PRs a Issues
