@@ -1,0 +1,29 @@
+name: Solicitud de Funcionalidad
+description: Sugiere una nueva funcionalidad para la aplicación.
+labels: [feature, enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción de la Funcionalidad
+      description: Describe claramente la funcionalidad que sugieres.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivación
+      description: Explica por qué crees que esta funcionalidad sería útil.
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridad
+      description: ¿Qué tan importante es esta funcionalidad?
+      options:
+        - Alta
+        - Media
+        - Baja
+    validations:
+      required: true
