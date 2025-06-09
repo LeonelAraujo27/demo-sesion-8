@@ -1,0 +1,19 @@
+*.py     @desarrolladorPython @expertoSeguridad
+*.js     @desarrolladorJavaScript
+/docs/   @equipoDocumentacion
+
+*   Esta regla asigna a `@desarrolladorPython` y `@expertoSeguridad` como revisores para todos los archivos con la extensión `.py`, a `@desarrolladorJavaScript` para los archivos `.js` y al `@equipoDocumentacion` para los archivos en el directorio `/docs/`.
+  *Modifica estos nombres de usuarios por los nombres que usarás en github
+
+/impuestos/  @expertoImpuestos
+
+    * Esta regla asigna al usuario `@expertoImpuestos` a los archivos dentro del directorio `/impuestos/`
+    *Modifica estos nombres de usuarios por los nombres que usarás en github
+
+*   **Regla 3: Asignar un Dueño por Defecto:**
+
+*       @dueñoPorDefecto
+
+* Asigna al usuario `@dueñoPorDefecto` como revisor por defecto para todos los archivos que no coincidan con ninguna de las reglas anteriores.
+    *Modifica estos nombres de usuarios por los nombres que usarás en github
+
